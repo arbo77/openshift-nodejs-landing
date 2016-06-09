@@ -1,0 +1,62 @@
+body {
+	font: 14px lato, calibri, "Segoe UI", ubuntu, "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+a {
+	color: #00B7FF;
+}
+
+html, body, .full-height{
+	height: 100%;
+	padding: 0; 
+	margin: 0;
+}
+
+.center{
+	text-align: center;
+}
+
+.middle{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.inner-middle{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.body-background{
+	background: url(https://i.imgur.com/C2F66pt.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.branding{
+	font-size: 14vw;
+	font-weight: 900;
+}
+
+.slogan{
+	font-size: 4vw;
+}
+
+.darker{
+	background: rgba(0, 0, 0, 0.72);
+}
+
+@media (max-width: 768px){
+	.body-background{
+		background-position-x: left;
+	}
+
+	.branding{
+		font-size: 18vw;
+	}
+	.slogan{
+		font-size: 6vw;
+	}
+}
